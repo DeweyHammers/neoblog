@@ -14,11 +14,13 @@ const Home = () => {
       </h5>
       <h4>Or</h4>
       <h5>
-        You can look though through all the{" "}
+        You can also look though all the{" "}
         <Link className="user-post-link btn btn-secondary btn-sm" to="/posts">
           Posts
         </Link>
       </h5>
+      <h4>Coming soon!</h4>
+      <h5>Comments, Albums, Photos and Todos</h5>
     </Container>
   );
 };
