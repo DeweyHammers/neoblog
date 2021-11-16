@@ -10,7 +10,7 @@ const Users = () => {
 
   return (
     <Container>
-      <h1 className="main-title">All Users</h1>
+      <h1 className="center-text">All Users</h1>
       <Table striped bordered hover variant="dark" responsive className="mt-3">
         <thead>
           <tr>

@@ -15,7 +15,7 @@ table {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.main-title {
+.center-text {
   text-align: center;
 }
 
@@ -26,4 +26,20 @@ table {
 
 .user-post-link:hover {
   color: white;
+}
+
+#filter-input {
+  font-family: inherit;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  margin-bottom: 30px;
 }

@@ -14,6 +14,11 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    /* 
+      When The app First Loads it will call dispatch fetching all the Info for 
+      Users and Posts and saving them in there own state within redux. 
+    */
+
     dispatch(receiveUsersData());
     dispatch(receivePostsData());
   }, [dispatch]);

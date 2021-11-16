@@ -1,9 +1,13 @@
-import { Container } from "react-bootstrap";
+import { Container, Alert } from "react-bootstrap";
 
 const NotFound = () => {
   return (
     <Container>
-      <h1>Error 404: The page you where looking for does not exist!</h1>
+      <Alert variant="danger" className="mt-4">
+        <h3 className="center-text">
+          Error 404: The page you where looking for does not exist!
+        </h3>
+      </Alert>
     </Container>
   );
 };
