@@ -6,10 +6,6 @@ This is a new blogging app for new and upcoming devs. This site is pulling data 
 
 Comments, Albums, Photos and Todos
 
-## Live Site
-
-[Neoblog](https://modest-knuth-5d0e51.netlify.app)
-
 ## Tech
 
 This app was created using React Framework
